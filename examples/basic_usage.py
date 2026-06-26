@@ -1,8 +1,9 @@
 import json
+from pathlib import Path
 
-from har_toolkit.models.base import HARFile
+from har_toolkit.schemas.har import HARFile
 
-with open("some.har", "r", encoding="utf-8") as f:
+with Path("some.har").open("r", encoding="utf-8") as f:
     raw_har = json.load(f)
 
 har = HARFile.model_validate(raw_har)
