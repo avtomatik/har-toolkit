@@ -37,14 +37,16 @@ class HARFile(HARBaseModel):
         return [e.request for e in self.log.entries]
 
     def failed_requests(self):
-        return [e for e in self.log.entries if e.response.status >= 400]
+        HTTP_STATUS = 400
+        return [e for e in self.log.entries if e.response.status >= HTTP_STATUS]
 
     def urls(self):
         return [e.request.url for e in self.log.entries]
 
     def javascript_responses(self):
+        MIME_TYPE = "application/javascript"
         return [
             e.response.content.text
             for e in self.log.entries
-            if e.response.content.mime_type == "application/javascript"
+            if e.response.content.mime_type == MIME_TYPE
         ]

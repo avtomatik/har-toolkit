@@ -1,30 +1,41 @@
 import json
 
+from pydantic import TypeAdapter
+
 from har_toolkit.config.paths import FIXTURES_DIR
+from har_toolkit.schemas.entry import Entry
 from har_toolkit.schemas.har import HARFile
 
-with (FIXTURES_DIR / "sample.har").open("r", encoding="utf-8") as f:
-    raw_har = json.load(f)
 
-har = HARFile.model_validate(raw_har)
+def main() -> None:
+    with (FIXTURES_DIR / "actual.har").open("r", encoding="utf-8") as f:
+        raw_har = json.load(f)
 
-# =============================================================================
-# all failed requests
-# =============================================================================
-failed = [e for e in har.log.entries if e.response.status >= 400]
+    har = HARFile.model_validate(raw_har)
+
+    # =========================================================================
+    # all failed requests
+    # =========================================================================
+    failed = har.failed_requests()
+
+    # =========================================================================
+    # extract URLs
+    # =========================================================================
+    urls = har.urls()
+
+    # =========================================================================
+    # find javascript payloads
+    # =========================================================================
+    js = har.javascript_responses()
+
+    print(f"URLs: {urls}")
+    print(f"JavaScript Payloads: {js}")
+
+    adapter = TypeAdapter(list[Entry])
+
+    with (FIXTURES_DIR / "failed.json").open("wb") as f:
+        f.write(adapter.dump_json(failed, by_alias=True, indent=2))
 
 
-# =============================================================================
-# extract URLs
-# =============================================================================
-urls = [e.request.url for e in har.log.entries]
-
-
-# =============================================================================
-# find javascript payloads
-# =============================================================================
-js = [
-    e.response.content.text
-    for e in har.log.entries
-    if e.response.content.mime_type == "application/javascript"
-]
+if __name__ == "__main__":
+    main()

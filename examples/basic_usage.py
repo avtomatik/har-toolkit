@@ -3,17 +3,23 @@ import json
 from har_toolkit.config.paths import FIXTURES_DIR
 from har_toolkit.schemas.har import HARFile
 
-with (FIXTURES_DIR / "sample.har").open("r", encoding="utf-8") as f:
-    raw_har = json.load(f)
 
-har = HARFile.model_validate(raw_har)
+def main() -> None:
+    with (FIXTURES_DIR / "actual.har").open("r", encoding="utf-8") as f:
+        raw_har = json.load(f)
 
-print(len(har.log.entries))
+    har = HARFile.model_validate(raw_har)
 
-request = har.log.entries[0].request
+    print(f"Total Entries: {len(har.log.entries)}")
 
-print(request.http_version)
-print(request.query_string)
-print(request.post_data)
+    request = har.log.entries[0].request
 
-har_json = har.model_dump(by_alias=True, exclude_none=True)
+    print(f"Request HTTP Version: {request.http_version}")
+    print(f"Request Query String: {request.query_string}")
+    print(f"Request POST Data: {request.post_data}")
+
+    har.model_dump(by_alias=True, exclude_none=True)
+
+
+if __name__ == "__main__":
+    main()
