@@ -1,0 +1,2526 @@
+[
+  {
+    "startedDateTime": "2026-06-04T11:12:08.123Z",
+    "time": 622.164000000339,
+    "request": {
+      "method": "GET",
+      "url": "https://base-api-url/crypto-service/authenticate",
+      "httpVersion": "",
+      "headers": [
+        {
+          "name": "x-auth-token",
+          "value": "1759eedf-6879-4918-8971-3215e53d599d"
+        },
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"Linux\""
+        },
+        {
+          "name": "Referer",
+          "value": "https://base-api-url/dashboard"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "ru"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\""
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "application/json"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "queryString": [],
+      "cookies": [],
+      "headersSize": -1,
+      "bodySize": 0,
+      "postData": null
+    },
+    "response": {
+      "status": 0,
+      "statusText": "",
+      "httpVersion": "",
+      "headers": [],
+      "cookies": [],
+      "content": {
+        "size": 0,
+        "mimeType": "x-unknown",
+        "text": null,
+        "encoding": null
+      },
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 0,
+      "_error": "net::ERR_CONNECTION_CLOSED",
+      "_fetchedViaServiceWorker": false
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 622.164000000339,
+      "dns": -1.0,
+      "connect": -1.0,
+      "send": 0.0,
+      "wait": 0.0,
+      "receive": 0.0,
+      "ssl": -1.0,
+      "_blocked_queueing": -1
+    },
+    "serverIPAddress": "",
+    "connection": null,
+    "pageref": "page_1",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "value",
+            "scriptId": "8",
+            "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+            "lineNumber": 0,
+            "columnNumber": 29307
+          },
+          {
+            "functionName": "value",
+            "scriptId": "8",
+            "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+            "lineNumber": 0,
+            "columnNumber": 30029
+          },
+          {
+            "functionName": "",
+            "scriptId": "9",
+            "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+            "lineNumber": 0,
+            "columnNumber": 87709
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 6534
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 7869
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 4013
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 10513
+          },
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+            "lineNumber": 0,
+            "columnNumber": 40934
+          },
+          {
+            "functionName": "I",
+            "scriptId": "22",
+            "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+            "lineNumber": 0,
+            "columnNumber": 20809
+          },
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+            "lineNumber": 0,
+            "columnNumber": 22151
+          },
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+            "lineNumber": 0,
+            "columnNumber": 21238
+          },
+          {
+            "functionName": "",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13541
+          },
+          {
+            "functionName": "i",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13334
+          },
+          {
+            "functionName": "value",
+            "scriptId": "22",
+            "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+            "lineNumber": 0,
+            "columnNumber": 40609
+          },
+          {
+            "functionName": "re",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 11686
+          },
+          {
+            "functionName": "Vn",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 29248
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 34601
+          },
+          {
+            "functionName": "e",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 35861
+          },
+          {
+            "functionName": "sn",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 21798
+          },
+          {
+            "functionName": "init",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 20664
+          },
+          {
+            "functionName": "n",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 22000
+          },
+          {
+            "functionName": "d",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 44577
+          },
+          {
+            "functionName": "h",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 44206
+          },
+          {
+            "functionName": "A",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 46807
+          },
+          {
+            "functionName": "S",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 47594
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 48734
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 27069
+          },
+          {
+            "functionName": "r",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 27892
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 30787
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 31520
+          },
+          {
+            "functionName": "Xn",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 29727
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 12770
+          },
+          {
+            "functionName": "le",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 12165
+          }
+        ],
+        "parent": {
+          "description": "Promise.then",
+          "callFrames": [
+            {
+              "functionName": "ae",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 12256
+            },
+            {
+              "functionName": "ve",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 12835
+            },
+            {
+              "functionName": "er",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 30201
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 31455
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 5132
+            },
+            {
+              "functionName": "set",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 7669
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 27618
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 27589
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 22307
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 20890
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 22172
+            },
+            {
+              "functionName": "r",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 17176
+            },
+            {
+              "functionName": "r",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 17214
+            },
+            {
+              "functionName": "r",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 17214
+            },
+            {
+              "functionName": "Pt",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 17222
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 22103
+            },
+            {
+              "functionName": "r",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 17176
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 17204
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 22014
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 18514
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 22,
+              "columnNumber": 19248
+            }
+          ],
+          "parent": {
+            "description": "Promise.then",
+            "callFrames": [
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 18691
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 18883
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 18859
+              },
+              {
+                "functionName": "Jt",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 18809
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 18318
+              },
+              {
+                "functionName": "h",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 21768
+              },
+              {
+                "functionName": "r",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 17185
+              },
+              {
+                "functionName": "r",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 17214
+              },
+              {
+                "functionName": "r",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 17214
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 17204
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 22014
+              },
+              {
+                "functionName": "",
+                "scriptId": "9",
+                "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                "lineNumber": 0,
+                "columnNumber": 184665
+              },
+              {
+                "functionName": "h",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 21768
+              },
+              {
+                "functionName": "r",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 17185
+              },
+              {
+                "functionName": "Pt",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 17222
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 22038
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 20856
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 27519
+              },
+              {
+                "functionName": "beforeCreate",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 22,
+                "columnNumber": 11103
+              },
+              {
+                "functionName": "re",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 11686
+              },
+              {
+                "functionName": "Vn",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 29248
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 34562
+              },
+              {
+                "functionName": "$r",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 35325
+              },
+              {
+                "functionName": "cd49",
+                "scriptId": "9",
+                "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                "lineNumber": 0,
+                "columnNumber": 200335
+              },
+              {
+                "functionName": "a",
+                "scriptId": "19",
+                "url": "https://base-api-url/runtime.677411.js",
+                "lineNumber": 0,
+                "columnNumber": 16965
+              },
+              {
+                "functionName": "0",
+                "scriptId": "6",
+                "url": "https://base-api-url/chunks/app~d0ae3f07.3dddb6.js",
+                "lineNumber": 0,
+                "columnNumber": 104
+              },
+              {
+                "functionName": "a",
+                "scriptId": "19",
+                "url": "https://base-api-url/runtime.677411.js",
+                "lineNumber": 0,
+                "columnNumber": 16965
+              },
+              {
+                "functionName": "e",
+                "scriptId": "19",
+                "url": "https://base-api-url/runtime.677411.js",
+                "lineNumber": 0,
+                "columnNumber": 430
+              },
+              {
+                "functionName": "f",
+                "scriptId": "19",
+                "url": "https://base-api-url/runtime.677411.js",
+                "lineNumber": 0,
+                "columnNumber": 293
+              },
+              {
+                "functionName": "",
+                "scriptId": "20",
+                "url": "https://base-api-url/chunks/app~9298fefa.2f01cb.js",
+                "lineNumber": 0,
+                "columnNumber": 52
+              }
+            ]
+          }
+        }
+      }
+    },
+    "_priority": "High",
+    "_resourceType": "fetch"
+  },
+  {
+    "startedDateTime": "2026-06-04T11:12:08.841Z",
+    "time": 161.15600000193808,
+    "request": {
+      "method": "GET",
+      "url": "https://base-api-url/crypto-service/system/ldap-provider/domains",
+      "httpVersion": "",
+      "headers": [
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"Linux\""
+        },
+        {
+          "name": "Referer",
+          "value": "https://base-api-url/login"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "ru"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\""
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "application/json"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "queryString": [],
+      "cookies": [],
+      "headersSize": -1,
+      "bodySize": 0,
+      "postData": null
+    },
+    "response": {
+      "status": 0,
+      "statusText": "",
+      "httpVersion": "",
+      "headers": [],
+      "cookies": [],
+      "content": {
+        "size": 0,
+        "mimeType": "x-unknown",
+        "text": null,
+        "encoding": null
+      },
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 0,
+      "_error": "net::ERR_CONNECTION_CLOSED",
+      "_fetchedViaServiceWorker": false
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 161.15600000193808,
+      "dns": -1.0,
+      "connect": -1.0,
+      "send": 0.0,
+      "wait": 0.0,
+      "receive": 0.0,
+      "ssl": -1.0,
+      "_blocked_queueing": -1
+    },
+    "serverIPAddress": "",
+    "connection": null,
+    "pageref": "page_1",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "value",
+            "scriptId": "8",
+            "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+            "lineNumber": 0,
+            "columnNumber": 29307
+          },
+          {
+            "functionName": "value",
+            "scriptId": "8",
+            "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+            "lineNumber": 0,
+            "columnNumber": 30029
+          },
+          {
+            "functionName": "",
+            "scriptId": "9",
+            "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+            "lineNumber": 0,
+            "columnNumber": 191690
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 6534
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 7869
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 4013
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 10513
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 24708
+          },
+          {
+            "functionName": "h",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13309
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 14651
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13738
+          },
+          {
+            "functionName": "",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13541
+          },
+          {
+            "functionName": "i",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13334
+          },
+          {
+            "functionName": "value",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 24543
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 23891
+          },
+          {
+            "functionName": "h",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13309
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 14651
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13738
+          },
+          {
+            "functionName": "",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13541
+          },
+          {
+            "functionName": "i",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13334
+          },
+          {
+            "functionName": "value",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 23181
+          },
+          {
+            "functionName": "re",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 11686
+          },
+          {
+            "functionName": "Vn",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 29248
+          },
+          {
+            "functionName": "insert",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 20924
+          },
+          {
+            "functionName": "E",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 47938
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 49254
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 27069
+          },
+          {
+            "functionName": "r",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 27892
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 30787
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 31520
+          },
+          {
+            "functionName": "Xn",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 29727
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 12770
+          },
+          {
+            "functionName": "le",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 12165
+          }
+        ],
+        "parent": {
+          "description": "Promise.then",
+          "callFrames": [
+            {
+              "functionName": "ae",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 12256
+            },
+            {
+              "functionName": "ve",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 12835
+            },
+            {
+              "functionName": "er",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 30201
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 31455
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 27302
+            },
+            {
+              "functionName": "f",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 24648
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 24799
+            },
+            {
+              "functionName": "",
+              "scriptId": "17",
+              "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+              "lineNumber": 6,
+              "columnNumber": 2540
+            }
+          ],
+          "parent": {
+            "description": "Promise.then",
+            "callFrames": [
+              {
+                "functionName": "Cn",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 24908
+              },
+              {
+                "functionName": "an",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 21244
+              },
+              {
+                "functionName": "dn",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 22863
+              },
+              {
+                "functionName": "hn",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 22394
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 23406
+              },
+              {
+                "functionName": "n",
+                "scriptId": "25",
+                "url": "https://base-api-url/chunks/auth~57fe23c6.f196a8.js",
+                "lineNumber": 0,
+                "columnNumber": 328
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 23861
+              },
+              {
+                "functionName": "r",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 27902
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 30787
+              },
+              {
+                "functionName": "rr",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 30705
+              },
+              {
+                "functionName": "Ln",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 27916
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 66037
+              },
+              {
+                "functionName": "init",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 20675
+              },
+              {
+                "functionName": "n",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 22000
+              },
+              {
+                "functionName": "d",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 44577
+              },
+              {
+                "functionName": "h",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 44206
+              },
+              {
+                "functionName": "A",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 46807
+              },
+              {
+                "functionName": "S",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 47594
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 48734
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 27069
+              },
+              {
+                "functionName": "r",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 27892
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 30787
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 31520
+              },
+              {
+                "functionName": "Xn",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 29727
+              },
+              {
+                "functionName": "",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 12770
+              },
+              {
+                "functionName": "le",
+                "scriptId": "17",
+                "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                "lineNumber": 6,
+                "columnNumber": 12165
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "ae",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 6,
+                  "columnNumber": 12256
+                },
+                {
+                  "functionName": "ve",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 6,
+                  "columnNumber": 12835
+                },
+                {
+                  "functionName": "er",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 6,
+                  "columnNumber": 30201
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 6,
+                  "columnNumber": 31455
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 6,
+                  "columnNumber": 5132
+                },
+                {
+                  "functionName": "set",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 6,
+                  "columnNumber": 7669
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 27618
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 27589
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 22307
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 20890
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 22172
+                },
+                {
+                  "functionName": "r",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 17176
+                },
+                {
+                  "functionName": "r",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 17214
+                },
+                {
+                  "functionName": "Pt",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 17222
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 22103
+                },
+                {
+                  "functionName": "r",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 17176
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 17204
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 22014
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 18514
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "17",
+                  "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                  "lineNumber": 22,
+                  "columnNumber": 19248
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 18691
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 18883
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 18859
+                  },
+                  {
+                    "functionName": "Jt",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 18809
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 18318
+                  },
+                  {
+                    "functionName": "h",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 21768
+                  },
+                  {
+                    "functionName": "r",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 17185
+                  },
+                  {
+                    "functionName": "r",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 17214
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 17204
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 22014
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "9",
+                    "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                    "lineNumber": 0,
+                    "columnNumber": 184511
+                  },
+                  {
+                    "functionName": "h",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 21768
+                  },
+                  {
+                    "functionName": "r",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 17185
+                  },
+                  {
+                    "functionName": "r",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 17214
+                  },
+                  {
+                    "functionName": "r",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 17214
+                  },
+                  {
+                    "functionName": "Pt",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 17222
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 22038
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 20856
+                  },
+                  {
+                    "functionName": "push.8c4f.e.push",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 23191
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 28081
+                  },
+                  {
+                    "functionName": "push.8c4f.be.push",
+                    "scriptId": "17",
+                    "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                    "lineNumber": 22,
+                    "columnNumber": 28044
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+                    "lineNumber": 0,
+                    "columnNumber": 17110
+                  },
+                  {
+                    "functionName": "s",
+                    "scriptId": "8",
+                    "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+                    "lineNumber": 0,
+                    "columnNumber": 8792
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+                    "lineNumber": 0,
+                    "columnNumber": 10134
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "8",
+                    "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+                    "lineNumber": 0,
+                    "columnNumber": 9221
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "18",
+                    "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+                    "lineNumber": 23,
+                    "columnNumber": 13541
+                  },
+                  {
+                    "functionName": "i",
+                    "scriptId": "18",
+                    "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+                    "lineNumber": 23,
+                    "columnNumber": 13334
+                  },
+                  {
+                    "functionName": "value",
+                    "scriptId": "8",
+                    "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+                    "lineNumber": 0,
+                    "columnNumber": 16811
+                  },
+                  {
+                    "functionName": "value",
+                    "scriptId": "8",
+                    "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+                    "lineNumber": 0,
+                    "columnNumber": 99209
+                  },
+                  {
+                    "functionName": "value",
+                    "scriptId": "8",
+                    "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+                    "lineNumber": 0,
+                    "columnNumber": 37001
+                  },
+                  {
+                    "functionName": "g",
+                    "scriptId": "9",
+                    "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                    "lineNumber": 0,
+                    "columnNumber": 84928
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "9",
+                    "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                    "lineNumber": 0,
+                    "columnNumber": 88065
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.catch",
+                  "callFrames": [
+                    {
+                      "functionName": "",
+                      "scriptId": "9",
+                      "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                      "lineNumber": 0,
+                      "columnNumber": 88045
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 12,
+                      "columnNumber": 6534
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 12,
+                      "columnNumber": 7869
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 12,
+                      "columnNumber": 4013
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 12,
+                      "columnNumber": 10513
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "22",
+                      "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+                      "lineNumber": 0,
+                      "columnNumber": 40934
+                    },
+                    {
+                      "functionName": "I",
+                      "scriptId": "22",
+                      "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+                      "lineNumber": 0,
+                      "columnNumber": 20809
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "22",
+                      "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+                      "lineNumber": 0,
+                      "columnNumber": 22151
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "22",
+                      "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+                      "lineNumber": 0,
+                      "columnNumber": 21238
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "18",
+                      "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+                      "lineNumber": 23,
+                      "columnNumber": 13541
+                    },
+                    {
+                      "functionName": "i",
+                      "scriptId": "18",
+                      "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+                      "lineNumber": 23,
+                      "columnNumber": 13334
+                    },
+                    {
+                      "functionName": "value",
+                      "scriptId": "22",
+                      "url": "https://base-api-url/chunks/main~21833f8f.d11c1e.js",
+                      "lineNumber": 0,
+                      "columnNumber": 40609
+                    },
+                    {
+                      "functionName": "re",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 11686
+                    },
+                    {
+                      "functionName": "Vn",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 29248
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 34601
+                    },
+                    {
+                      "functionName": "e",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 35861
+                    },
+                    {
+                      "functionName": "sn",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 21798
+                    },
+                    {
+                      "functionName": "init",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 20664
+                    },
+                    {
+                      "functionName": "n",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 22000
+                    },
+                    {
+                      "functionName": "d",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 44577
+                    },
+                    {
+                      "functionName": "h",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 44206
+                    },
+                    {
+                      "functionName": "A",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 46807
+                    },
+                    {
+                      "functionName": "S",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 47594
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 48734
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 27069
+                    },
+                    {
+                      "functionName": "r",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 27892
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 30787
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 31520
+                    },
+                    {
+                      "functionName": "Xn",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 29727
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 12770
+                    },
+                    {
+                      "functionName": "le",
+                      "scriptId": "17",
+                      "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                      "lineNumber": 6,
+                      "columnNumber": 12165
+                    }
+                  ],
+                  "parent": {
+                    "description": "Promise.then",
+                    "callFrames": [
+                      {
+                        "functionName": "ae",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 6,
+                        "columnNumber": 12256
+                      },
+                      {
+                        "functionName": "ve",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 6,
+                        "columnNumber": 12835
+                      },
+                      {
+                        "functionName": "er",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 6,
+                        "columnNumber": 30201
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 6,
+                        "columnNumber": 31455
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 6,
+                        "columnNumber": 5132
+                      },
+                      {
+                        "functionName": "set",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 6,
+                        "columnNumber": 7669
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 27618
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 27589
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 22307
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 20890
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 22172
+                      },
+                      {
+                        "functionName": "r",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 17176
+                      },
+                      {
+                        "functionName": "r",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 17214
+                      },
+                      {
+                        "functionName": "r",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 17214
+                      },
+                      {
+                        "functionName": "Pt",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 17222
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 22103
+                      },
+                      {
+                        "functionName": "r",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 17176
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 17204
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 22014
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 18514
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "17",
+                        "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                        "lineNumber": 22,
+                        "columnNumber": 19248
+                      }
+                    ],
+                    "parent": {
+                      "description": "Promise.then",
+                      "callFrames": [
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 18691
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 18883
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 18859
+                        },
+                        {
+                          "functionName": "Jt",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 18809
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 18318
+                        },
+                        {
+                          "functionName": "h",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 21768
+                        },
+                        {
+                          "functionName": "r",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 17185
+                        },
+                        {
+                          "functionName": "r",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 17214
+                        },
+                        {
+                          "functionName": "r",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 17214
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 17204
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 22014
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "9",
+                          "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                          "lineNumber": 0,
+                          "columnNumber": 184665
+                        },
+                        {
+                          "functionName": "h",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 21768
+                        },
+                        {
+                          "functionName": "r",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 17185
+                        },
+                        {
+                          "functionName": "Pt",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 17222
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 22038
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 20856
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 27519
+                        },
+                        {
+                          "functionName": "beforeCreate",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 22,
+                          "columnNumber": 11103
+                        },
+                        {
+                          "functionName": "re",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 6,
+                          "columnNumber": 11686
+                        },
+                        {
+                          "functionName": "Vn",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 6,
+                          "columnNumber": 29248
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 6,
+                          "columnNumber": 34562
+                        },
+                        {
+                          "functionName": "$r",
+                          "scriptId": "17",
+                          "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+                          "lineNumber": 6,
+                          "columnNumber": 35325
+                        },
+                        {
+                          "functionName": "cd49",
+                          "scriptId": "9",
+                          "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+                          "lineNumber": 0,
+                          "columnNumber": 200335
+                        },
+                        {
+                          "functionName": "a",
+                          "scriptId": "19",
+                          "url": "https://base-api-url/runtime.677411.js",
+                          "lineNumber": 0,
+                          "columnNumber": 16965
+                        },
+                        {
+                          "functionName": "0",
+                          "scriptId": "6",
+                          "url": "https://base-api-url/chunks/app~d0ae3f07.3dddb6.js",
+                          "lineNumber": 0,
+                          "columnNumber": 104
+                        },
+                        {
+                          "functionName": "a",
+                          "scriptId": "19",
+                          "url": "https://base-api-url/runtime.677411.js",
+                          "lineNumber": 0,
+                          "columnNumber": 16965
+                        },
+                        {
+                          "functionName": "e",
+                          "scriptId": "19",
+                          "url": "https://base-api-url/runtime.677411.js",
+                          "lineNumber": 0,
+                          "columnNumber": 430
+                        },
+                        {
+                          "functionName": "f",
+                          "scriptId": "19",
+                          "url": "https://base-api-url/runtime.677411.js",
+                          "lineNumber": 0,
+                          "columnNumber": 293
+                        },
+                        {
+                          "functionName": "",
+                          "scriptId": "20",
+                          "url": "https://base-api-url/chunks/app~9298fefa.2f01cb.js",
+                          "lineNumber": 0,
+                          "columnNumber": 52
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "_priority": "High",
+    "_resourceType": "fetch"
+  },
+  {
+    "startedDateTime": "2026-06-04T11:12:21.903Z",
+    "time": 147.49699999811128,
+    "request": {
+      "method": "GET",
+      "url": "https://base-api-url/crypto-service/authenticate",
+      "httpVersion": "",
+      "headers": [
+        {
+          "name": "sec-ch-ua-platform",
+          "value": "\"Linux\""
+        },
+        {
+          "name": "Referer",
+          "value": "https://base-api-url/login"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "ru"
+        },
+        {
+          "name": "sec-ch-ua",
+          "value": "\"Not A(Brand\";v=\"8\", \"Chromium\";v=\"132\""
+        },
+        {
+          "name": "sec-ch-ua-mobile",
+          "value": "?0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "application/json"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "queryString": [],
+      "cookies": [],
+      "headersSize": -1,
+      "bodySize": 0,
+      "postData": null
+    },
+    "response": {
+      "status": 0,
+      "statusText": "",
+      "httpVersion": "",
+      "headers": [],
+      "cookies": [],
+      "content": {
+        "size": 0,
+        "mimeType": "x-unknown",
+        "text": null,
+        "encoding": null
+      },
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 0,
+      "_error": "net::ERR_CONNECTION_CLOSED",
+      "_fetchedViaServiceWorker": false
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 147.49699999811128,
+      "dns": -1.0,
+      "connect": -1.0,
+      "send": 0.0,
+      "wait": 0.0,
+      "receive": 0.0,
+      "ssl": -1.0,
+      "_blocked_queueing": -1
+    },
+    "serverIPAddress": "",
+    "connection": null,
+    "pageref": "page_1",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "value",
+            "scriptId": "8",
+            "url": "https://base-api-url/chunks/chunk-core~06837ae4.6a8b77.js",
+            "lineNumber": 0,
+            "columnNumber": 29307
+          },
+          {
+            "functionName": "P",
+            "scriptId": "9",
+            "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+            "lineNumber": 0,
+            "columnNumber": 85177
+          },
+          {
+            "functionName": "",
+            "scriptId": "9",
+            "url": "https://base-api-url/chunks/chunk-core~5a11b65b.687c99.js",
+            "lineNumber": 0,
+            "columnNumber": 86450
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 6534
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 7869
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 4013
+          },
+          {
+            "functionName": "",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 12,
+            "columnNumber": 10513
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 28479
+          },
+          {
+            "functionName": "h",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13309
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 14651
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13738
+          },
+          {
+            "functionName": "",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13541
+          },
+          {
+            "functionName": "i",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13334
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 28185
+          },
+          {
+            "functionName": "",
+            "scriptId": "15",
+            "url": "https://base-api-url/chunks/chunk-element-ui~6ed3fd28.699f52.js",
+            "lineNumber": 0,
+            "columnNumber": 289508
+          },
+          {
+            "functionName": "validate",
+            "scriptId": "15",
+            "url": "https://base-api-url/chunks/chunk-element-ui~6ed3fd28.699f52.js",
+            "lineNumber": 0,
+            "columnNumber": 295184
+          },
+          {
+            "functionName": "",
+            "scriptId": "15",
+            "url": "https://base-api-url/chunks/chunk-element-ui~6ed3fd28.699f52.js",
+            "lineNumber": 0,
+            "columnNumber": 289410
+          },
+          {
+            "functionName": "validate",
+            "scriptId": "15",
+            "url": "https://base-api-url/chunks/chunk-element-ui~6ed3fd28.699f52.js",
+            "lineNumber": 0,
+            "columnNumber": 289387
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 28142
+          },
+          {
+            "functionName": "h",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13309
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 14651
+          },
+          {
+            "functionName": "",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 13738
+          },
+          {
+            "functionName": "",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13541
+          },
+          {
+            "functionName": "i",
+            "scriptId": "18",
+            "url": "https://base-api-url/chunks/app~690b702c.2c58ee.js",
+            "lineNumber": 23,
+            "columnNumber": 13334
+          },
+          {
+            "functionName": "value",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 27954
+          },
+          {
+            "functionName": "value",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 31361
+          },
+          {
+            "functionName": "submit",
+            "scriptId": "27",
+            "url": "https://base-api-url/chunks/chunk-e0aad2fc.d0a3f3.js",
+            "lineNumber": 0,
+            "columnNumber": 1297
+          },
+          {
+            "functionName": "re",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 11673
+          },
+          {
+            "functionName": "n",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 13493
+          },
+          {
+            "functionName": "push.2b0e.Qi.o._wrapper",
+            "scriptId": "17",
+            "url": "https://base-api-url/chunks/chunk-vue~205977d4.458377.js",
+            "lineNumber": 6,
+            "columnNumber": 52150
+          }
+        ]
+      }
+    },
+    "_priority": "High",
+    "_resourceType": "fetch"
+  }
+]

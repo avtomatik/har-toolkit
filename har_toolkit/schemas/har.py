@@ -38,7 +38,11 @@ class HARFile(HARBaseModel):
 
     def failed_requests(self):
         HTTP_STATUS = 400
-        return [e for e in self.log.entries if e.response.status >= HTTP_STATUS]
+        return [
+            e
+            for e in self.log.entries
+            if (e.response.status >= HTTP_STATUS or e.response.status == 0)
+        ]
 
     def urls(self):
         return [e.request.url for e in self.log.entries]
